@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+:root{
+	--gap:1em;
+	--index: calc(1vw + 1vh);
+	--color-dark: rgb(19, 0, 0);
+}
+
+body{
+	overflow: hidden;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	text-transform: uppercase;
+	font-family: 'Koulen';
+	letter-spacing: 4px;
+	font-size: calc(var(--index)*3);
+	text-align: center;
+	opacity: .9;
+	line-height: 1.5;
+	margin-top: 1em;
+}
+.header span{
+	display: block;
+	font-size: calc(var(--index));
+	opacity: .7;
+	margin-left: calc(var(--index)*0.85);
+	margin-top: 5px;
+}
