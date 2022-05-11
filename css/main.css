@@ -31,6 +31,6 @@ body{
 	display: block;
 	font-size: calc(var(--index));
 	opacity: .7;
-	margin-left: calc(var(--index)*0.85);
+	margin-left: calc(var(--index)*0.8);
 	margin-top: 5px;
 }
