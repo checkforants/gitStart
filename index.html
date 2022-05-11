@@ -8,9 +8,103 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/main.css">
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
 	<script src="js/app.js" defer></script>
 </head>
 <body>
 	<h1 class="header">Gif-place <span>loading...</span></h1>
+	<!-- .gallery>(.galery__item*22>img[src='gifs/$.gif' alt='Alt'])*4 -->
+	<div class="gallery">
+		<div class="galery__item"><img src="gifs/1.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/2.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/3.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/4.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/5.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/6.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/7.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/8.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/9.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/10.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/11.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/12.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/13.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/14.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/15.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/16.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/17.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/18.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/19.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/20.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/21.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/22.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/1.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/2.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/3.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/4.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/5.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/6.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/7.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/8.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/9.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/10.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/11.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/12.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/13.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/14.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/15.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/16.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/17.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/18.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/19.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/20.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/21.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/22.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/1.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/2.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/3.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/4.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/5.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/6.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/7.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/8.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/9.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/10.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/11.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/12.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/13.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/14.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/15.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/16.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/17.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/18.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/19.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/20.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/21.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/22.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/1.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/2.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/3.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/4.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/5.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/6.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/7.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/8.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/9.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/10.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/11.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/12.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/13.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/14.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/15.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/16.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/17.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/18.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/19.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/20.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/21.gif" alt="Alt"></div>
+		<div class="galery__item"><img src="gifs/22.gif" alt="Alt"></div>
+	</div>
 </body>
 </html>
