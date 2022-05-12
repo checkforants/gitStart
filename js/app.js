@@ -1,6 +1,10 @@
 window.onload=function(){
-	Draggable.create('.gallery', {
-		bounds:'body',
-		inertia:true
-	})
+	
+	setTimeout(() => {
+		Draggable.create('.gallery', {
+			bounds:'body',
+			inertia:true
+		})
+		document.body.classList.add('loaded')
+	}, 2000);
 }
