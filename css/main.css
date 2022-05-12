@@ -74,3 +74,18 @@ body{
 		transform: scale(8);
 	}
 }
+
+
+@media (prefers-color-scheme: dark){
+	body{
+		
+		background-color: var(--color-dark);
+		
+	}
+	.header{
+		filter: invert(100%);
+	}
+	img{
+		filter: invert(0);
+	}
+}
